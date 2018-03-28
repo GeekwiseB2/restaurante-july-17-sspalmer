@@ -47,3 +47,19 @@
 .seating-bg {
   background-image: url('../img/restaurant-2.jpg')
 }
+
+.btn-warning {
+  background-color: #F8512F;
+}
+
+.carousel-caption {
+  bottom: 75px;
+}
+
+.btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open>.dropdown-toggle.btn-warning {
+  background-color: #d34326;
+}
+
+.farm-bg {
+  background-image: url('../img/farm-2.jpg');
+}
