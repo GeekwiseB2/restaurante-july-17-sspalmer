@@ -1,4 +1,18 @@
 /* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display:900|Raleway:400,700');
+
+/* UNIVERSAL STYLES */
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+
+.orange-text {
+  color: #f8512f;
+}
+
+.white-text {
+  color: #fff;
+}
 
 /* NAVBAR STYLES */
 .navbar-default {
@@ -62,4 +76,25 @@
 
 .farm-bg {
   background-image: url('../img/farm-2.jpg');
+}
+
+/* OUR STORY STYLES */
+#our-story {
+  margin: 120px auto;
+}
+
+#our-story .lobster-text {
+  font-size: 6em;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.year-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 13em;
+  position: absolute;
+  color: rgba(0, 0, 0, .12)
+}
+
+#our-story p {
+  font-weight: 200;
 }
