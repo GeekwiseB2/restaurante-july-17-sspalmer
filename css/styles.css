@@ -124,3 +124,9 @@ body {
 .review-box p {
   font-size: 32px;
 }
+
+/* CONTACT SECTION */
+form label::after {
+  content: "*";
+  color: red;
+}
