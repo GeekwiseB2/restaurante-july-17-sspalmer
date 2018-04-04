@@ -129,9 +129,15 @@ body {
 /* CONTACT SECTION */
 #contact {
   background: linear-gradient(45deg, #f8512f, #fff);
+  padding: 20px;
 }
 
 form label::after {
   content: "*";
   color: red;
+}
+
+.form-box {
+  border: 1px solid #fff;
+  padding: 20px;
 }
